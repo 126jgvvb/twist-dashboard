@@ -1,0 +1,364 @@
+.top-level-div {
+    height: inherit;
+}
+
+.main-inner-div {
+    height: inherit;
+}
+
+.navbar,
+.top-bar {
+  /*  background-color: rgb(51, 51, 4);*/
+  background-color: rgb(64, 40, 9);
+    z-index: 1000;
+}
+
+.warning-label{
+    color:yellow;
+}
+
+.main-window,
+.main-face {
+    height: fit-content;
+    z-index: 1000;
+}
+
+.coin-category-header {
+    border-radius: 12px;
+    background-color: rgb(92, 88, 88);
+}
+
+.input-field{
+    border-radius:10px;
+    border-color: yellow;
+}
+
+.main-label{
+    color:yellow;
+}
+
+.coin-div {
+    background-color: rgb(47, 43, 43);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.graph-area:hover{
+background-color: rgb(86, 82, 82);
+}
+
+.coin-div:hover{
+    background-color: rgb(77, 72, 72);
+}
+
+.coin-list-div{
+    overflow-x:hidden;
+}
+
+.network-div{
+    background-color: inherit;
+}
+
+.navigation-arrow{
+    background-color: gray;
+}
+
+.navigation-arrow:hover {
+    background-color: rgb(171, 164, 164);
+}
+
+.coin-list-div {
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.logo2 {
+    border-radius: 60px;
+}
+
+.fogot-password-text{
+    color: yellow;
+}
+
+.new-package-div{
+    background-color: rgb(92, 88, 88);
+    border-radius:20px;
+}
+
+.token-display{
+    border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+}
+
+.connect-button{
+    border-radius: 8px;
+}
+
+.connect-button:hover{
+    background-color: #1969C7;
+}
+
+.footer{
+    background-color: rgb(82, 78, 78);
+    border-radius:20px;
+    height:fit-content;
+    color: white;
+   /* box-shadow: 2px 2px 2px 4px rgb(132, 130, 130);
+    */}
+
+    .forgot-password-input{
+        border-radius: 12px;
+    }
+
+
+.logo {
+    width: 30%;
+    border-radius: 60px;
+}
+
+.percent-change {
+    background-color: rgb(67, 63, 63);
+    border-radius: 15px;
+}
+
+.common-grey {
+    color: orange
+}
+
+.exchangeX {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+}
+
+.silde-show-div {
+    height: fit-content;
+}
+
+.content-description,
+.horizontal-panel,
+.commission-div {
+    background-color: rgba(128, 128, 128, 0.604);
+    border-radius: 12px;
+}
+
+.commission-history-link {
+    border-radius: 12px;
+    background-color: rgb(144, 144, 3);
+
+}
+
+.dotted-line-div {
+    border-left-style: dashed;
+    border-left-color: goldenrod;
+    border-left-width: 2px;
+}
+
+.small-header {
+    color: yellow;
+}
+
+.slide-div {
+    height: 478px;
+
+}
+
+.static-roller {
+    animation: right-to-left-float 10s linear infinite;
+}
+
+@keyframes right-to-left-float {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translate(-100%);
+    }
+}
+
+.video-ref {
+    background-color: rgb(2, 50, 50);
+}
+
+.central-tap {
+    border-width: 2px;
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: rgb(2, 50, 50);
+}
+
+.rolling-info {
+    color: whi;
+    background-color: rgb(2, 50, 50);
+}
+
+.common-label {
+    color: rgb(205, 205, 27);
+}
+
+.play-icon {}
+
+.video-ref {
+    border-width: 1px;
+    border-color: rgb(12, 156, 156);
+    border-radius: 5px;
+}
+
+.whatsapp-logo {
+    background-color: green;
+    border-radius: 30px;
+}
+
+.arrow-down {
+    animation: rotation-down 1000ms linear ease;
+}
+
+.first-user-div {
+    background-color: rgba(100, 95, 95, 0.574);
+    border-radius: 12px;
+}
+
+@keyframes rotation-down {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+.main-signup-div{/*
+    height: 900px;*/
+}
+
+.password-button {
+    background-color: rgb(2, 50, 50);
+    border-radius: 12px;
+}
+
+.signup-button-div {
+    border-radius: 12px;
+    background-color: yellow;
+}
+
+.signup-button-div:hover{
+    color: white;
+    background-color: rgb(144, 144, 3);
+}
+
+.login-button-div {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+}
+
+.input-field {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    background-color: inherit;
+}
+
+.common-gold {
+    color: #DA9424;
+}
+
+.common-blue {
+    color: #1969C7;
+}
+
+.generate-key-btn:hover{
+    background-color: rgb(142, 142, 9);
+}
+
+#select-element{
+    background-color: rgb(86, 86, 6);
+}
+
+.admin-inputs{
+    border-width: 1px;
+}
+
+.generate-key-btn{
+    background-color: rgb(86, 86, 6);
+}
+
+.you-image {
+    width: 30%;
+}
+
+.other-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.metric-card,
+.salutations-div,
+.user-input-div {
+    border-radius: 12px;
+    background-color: rgba(100, 95, 95, 0.574);
+}
+
+.heading,
+.details-card {
+    border-radius: 7px;
+    background-color: rgb(44, 42, 42);
+}
+
+.u-logo {
+    border-radius: 14px;
+}
+
+.invitation-section {
+    border-radius: 10px;
+    background-color: rgba(169, 169, 169, 0.231);
+}
+
+.user-link {
+    background-color: grey;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+    color: yellow;
+}
+
+.video-assistance-div {
+    border-style: none;
+    background-color: rgba(123, 119, 119, 0.194);
+}
+
+.rolling-coin-1 {
+    color: rgb(207, 33, 33);
+}
+
+.rolling-coin-2 {
+    color: rgb(10, 201, 10);
+    font-weight: 200;
+}
+
+.dot {
+    background-color: white;
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+    width: 8px;
+    height: 8px;
+}
+
+.central-tap:hover,
+.video-description:hover {
+    background-color: rgb(5, 95, 95);
+}
+
+.slide-div {
+    object-fit: contain;
+}
+
+.sample-img {
+    border-radius: 12px;
+}
