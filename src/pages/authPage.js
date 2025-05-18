@@ -32,7 +32,7 @@ export const AuthPage = () => {
         result.then((result) => {
             if (result) {
                 setConnect('Connected');
-                return window.location.href='http://192.168.1.3:3000/connect-success';
+                return window.location.href='https://twist-dashboard.vercel.app/connect-success';
             }
             else {
                 alert('Something went wrong, check with admin...');
