@@ -1,5 +1,5 @@
 
 
 export const obj={
-    serverIP:'192.168.1.3'
+    serverIP:'https://twist-main-server-production.up.railway.app'
 }
