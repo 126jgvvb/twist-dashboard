@@ -27,6 +27,7 @@ const BarX = ({ tokens }) => {
     ]
 
     for (let obj of tokens) {
+   //     alert(Object.keys(obj));
         // eslint-disable-next-line default-case
         switch (obj.payment) {
             case 'ugx.1000': data[0].value += 1; break
@@ -34,6 +35,7 @@ const BarX = ({ tokens }) => {
             case 'ugx.5000': data[2].value += 1; break
             case 'ugx.9000': data[3].value += 1; break
             case 'ugx.18000': data[4].value += 1; break
+            case 'any':data[0].value+=1; break //default for voucher clients
         }
     }
 

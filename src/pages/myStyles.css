@@ -68,7 +68,7 @@ background-color: rgb(86, 82, 82);
 }
 
 .coin-list-div {
-    overflow-y: auto;
+    overflow: auto;
     border-radius: 5px;
 }
 
@@ -103,6 +103,7 @@ background-color: rgb(86, 82, 82);
     border-radius:20px;
     height:fit-content;
     color: white;
+    font-size: 13px;
    /* box-shadow: 2px 2px 2px 4px rgb(132, 130, 130);
     */}
 

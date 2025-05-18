@@ -322,14 +322,13 @@ const getAllData = async () => {
             `http://${obj.serverIP}:4000${route}`)
             .then(resp => resp.json())
             .then((resp) => {
-      //          console.log(`Result for ${'http://localhost:4000' + route}`, resp.data);
-
+     
                 if (resp.data !== undefined) {
                     if (property === 'obj') {
                         const objX = resp.data.data;
                         tempObj.phoneNumber = objX.admin.phoneNumber;
                         tempObj.packagesList = objX.packagesList;
-                        tempObj.availableRunningCodes = objX.clientsArray;
+                        tempObj.availableRunningCodes = objX.availableRunningCodes;
                         tempObj.admin = objX.admin;
                         tempObj.routersInfo = objX.routers;
                     } 
@@ -364,13 +363,13 @@ return    setTimeout(() => {
   //  networkObject.state.adminID = 'XFMRBEJZCN';
         
     return getAllData().then(() => {
-    //    alert(tempObj.packagesList);
-    //    dispatch(setObject(tempObj));
+    //   alert((tempObj.routersInfo.length));
+        dispatch(setObject(tempObj));
         networkObject.startMonitoring(); 
         return { setObject: (data) => dispatch(setObject(tempObj)) }
     });
     
-}, 100);
+}, 1);
 
 }
 

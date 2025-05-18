@@ -4,9 +4,9 @@ import { DivComponent } from "./divider"
 export const LabelSeparator = ({clas, leftMessage, rightMessage }) => {
     
     return (
-        <DivComponent clas={` font-semibold mx-4 space-x-[20%] lg:space-x-[5%] lg:w-[90%] common-label ${clas}`}>
+        <DivComponent clas={` font-semibold  space-x-[20%] w-[100%] lg:space-x-[5%] lg:w-[90%] common-label ${clas}`}>
             <label className="">{leftMessage}</label>
-            <label className="!ml-[70%]">{rightMessage}</label>
+            <label className="!ml-[70%] sm:!ml-[20%]">{rightMessage}</label>
         </DivComponent>
     )
 }

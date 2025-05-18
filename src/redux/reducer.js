@@ -1,5 +1,5 @@
 
-//------------this is a test data object--------------
+/*------------this is a test data object--------------
 export let storageObj = {
     storeReady:false,
     packagesList: [
@@ -176,7 +176,46 @@ export let storageObj = {
         },
     ]
 }
+*/
 
+export let storageObj={
+    storeReady:false,
+    packagesList: [
+        {
+            duration: '1 Day',
+            price:'1000/='
+        },
+        {
+            duration: '3 Days',
+            price: '2500/='
+        },
+        {
+            duration: '7 Days',
+            price: '5000/='
+        },
+        {
+            duration: '14 Days',
+            price: '9000/='
+        },
+        {
+            duration: '30 Days',
+            price: '18000/='
+        }
+    ],
+    defaultVoucherCode: '2345',
+    availableRunningCodes: [
+    
+    ],
+    admin: {
+    
+    },
+    clientTimeFrames: ['1-HR','6-HRS','12-HRS','24-HRS','48-HRS(2Days)','72-HRS(3Days)','1-week','1-month'],
+    graphData: [],
+    merchantCode: '',
+    routersInfo: [
+
+    ]
+}
 
 
 export const reducerFunction = (state = storageObj,action) => {
@@ -210,6 +249,7 @@ export const reducerFunction = (state = storageObj,action) => {
                 merchantCode:action.value.merchantCode,
                 graphData:action.value.graphData,
                 admin:action.value.admin,
+                routersInfo:action.value.routersInfo,
                 defaultVoucherCode:action.value.defaultVoucherCode,
                 availableRunningCodes: action.value.availableRunningCodes,
                 clientTimeFrames:action.value.clientTimeFrames,

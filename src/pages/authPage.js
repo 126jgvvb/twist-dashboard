@@ -91,6 +91,13 @@ export const AuthPage = () => {
     }, [storeObject.packagesList, storageObj.phoneNumber, storageObj.merchantCode]);
 
 
+    setTimeout(() => {
+            setStoreState(true);
+            setList(storeObject.packagesList);
+           
+
+    }, 3000);
+
     const SetCurrentPrice = (Event) => {
         SetPrice(Event.target.value);
         return true;

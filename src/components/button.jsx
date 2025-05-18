@@ -43,21 +43,19 @@ export const ButtonX = ({ children,setTxt, clas, text ,targetID,onclick }) => {
         result.then(async(resp) => {
              result=resp.data;
 
-            if (result.status === 200) {
-                setLoading(false);
-                setVerified('verified');
-                localStorage.setItem('ghost-user',result.clientID);
-                //   navigate('/twist-homepage2');
-                alert('routerIP:'+result.routerIP+',clientMac:'+result.clientMac);
-                
-                return window.location.href='http://192.168.1.3:3000/connect-success';
-            }
-            else {
+             if(result==undefined) {
                 alert('Login  unsucccessful....Please check your token');
                 setVerified('Not verified');
                 setLoading(false);
                 return false;
             }
+            else if (result.status === 200) {
+                setLoading(false);
+                setVerified('verified');
+                localStorage.setItem('ghost-user',result.clientID);
+              return window.location.href='http://192.168.1.3:3000/connect-success';
+            }
+         
         })
    
     }
